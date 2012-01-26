@@ -25,7 +25,7 @@ import com.crunch.examples.WordCount;
  */
 public class SharingValidation extends Configured implements Tool, Serializable {
 	public int run(String... args) throws Exception {
-		if(args.length != 2) {
+		if(args.length != 3) {
 			System.err.println();
 			System.err.println("Two and only two arguments are accepted.");
 			System.err.println("Usage: " + this.getClass().getName() + " [generic options] input output");
